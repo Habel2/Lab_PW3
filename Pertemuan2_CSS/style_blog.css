@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:tahoma;
+    background: antiquewhite;
+    padding:10px ;
+}
+.header{
+    padding: 30px;
+    text-align:center;
+    background:burlywood;
+}
+.header h1{
+    font-size: 50px;
+}
+.navigasi{
+    background-color:lemonchiffon;
+    overflow: hidden;
+}
+.navigasi a{
+    float:left;
+    display:block;
+    text-align:center;
+    padding:44px;
+    text-decoration:none;
+    background-color:lemonchiffon;
+}
+.navigasi a:hover{
+    background-color:aliceblue;
+}
+.left-column{
+    float:left;
+    width:78%;
+}
+.right-column{
+    float:right;
+    width:22%;
+    background-color:aliceblue;
+    padding:5px;
+}
+.card{
+    padding:10px;
+    margin-top:10px;
+    background-color:peachpuff;
+}
+.footer{
+    margin-right: 17%;
+    padding:1px;
+    text-align: center;
+}
+.content:after{
+    content:"";
+    display:table;
+    clear:both;
+}
